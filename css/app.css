@@ -59,3 +59,63 @@ body {
     margin-top: 7rem;
   }
 }
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+div.col-md-3:nth-child(1) > img:nth-child(1):hover,
+div.col-md-3:nth-child(2) > img:nth-child(1):hover,
+div.col-md-3:nth-child(3) > img:nth-child(1):hover,
+div.col-md-3:nth-child(4) > img:nth-child(1):hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+/* IMAGES
+-------------------------------------------------- */
+
+.heroOne {
+  background-image: url('https://www.bleedingcool.com/wp-content/uploads/2017/04/victorvran_motorheadlogo01.jpg');
+}
+
+.heroTwo {
+  background-image: url('http://www.autumnseyes.com/wp-content/uploads/2014/05/wallofamps.jpg');
+}
+
+.heroThree {
+  background-image: url('https://wallpaperscraft.com/image/motorhead_band_members_hat_cross_6800_3840x2400.jpg');
+  height: 55vh;
+}
+
+.heroFour {
+  background-image: url('http://absoluteradio.co.uk/_img/pages/12146.1/motorhead-bad-magic-article.jpg');
+}
+
+.heroOne,
+.heroTwo,
+.heroThree,
+.heroFour {
+  background-color: #222;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.heroOne,
+.heroTwo,
+.heroFour {
+  height: 50vh;
+}
+
+.heroOne, 
+.heroTwo {
+  background-position: center center;
+}
+
+.heroThree,
+.heroFour {
+  background-position: top center;
+}
