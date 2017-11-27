@@ -126,7 +126,10 @@ img.float-left {
   height: 9.375rem;
 }
 
-#historyText p {
+#historyText p,
+#albumText p,
+#styleText p,
+#membersText p {
   text-indent: 3.125rem;
 }
 
