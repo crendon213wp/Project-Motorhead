@@ -138,3 +138,26 @@ img.LemmyBass {
   height: 23.44rem;
 }
 
+/* FONTS
+-------------------------------------------------- */
+
+H1 {
+  font-family: 'Pirata One', cursive;
+  font-size: 65px;
+  letter-spacing: 3px;
+}
+
+ H2, H3, H4, H5, p {
+  font-family: 'Roboto Slab', serif;
+ }
+
+.navbar-nav .nav-item,
+.navbar .navbar-brand {
+  font-family: 'Pirata One', cursive;
+  font-size: 25px;
+}
+
+.carousel-caption .text-primary {
+  text-shadow: 0 0 0.625rem rgba(255,193,7,0.5);
+}
+
