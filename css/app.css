@@ -119,3 +119,13 @@ div.col-md-3:nth-child(4) > img:nth-child(1):hover {
 .heroFour {
   background-position: top center;
 }
+
+img.float-right,
+img.float-left {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+#historyText p {
+  text-indent: 3.125rem;
+}
